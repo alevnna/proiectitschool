@@ -1,0 +1,294 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+   background-color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1 {
+    color: white;
+    font-size: 56px;
+}
+
+h3 {
+    color: #fbb44c;
+   
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-top: 15px;
+  }
+
+.welcome-trainers {
+    background-color: #141e4c;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    padding: 50px;
+}
+
+.trainers {
+    background-color: #ffffff;
+    padding: 55px;
+    min-width: 320px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.container-grid-tr {
+    background-color: white;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    padding: var(--spacing-medium);
+}
+
+.trainers-container {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.trainer-r img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: grayscale(100%);
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: -70px;
+}
+
+.trainer-m img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: grayscale(100%);
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: -70px;
+}
+
+.trainer-a img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: grayscale(100%);
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: -70px;
+}
+
+.trainer-e img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: grayscale(100%);
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: -70px;
+}
+
+.trainers .trainer-wrap {
+    width: 25%;
+    padding: 10px;
+}
+
+.trainer-r h3 {
+    background-color: rgba(20, 30, 76, 0.9);
+    background-blend-mode: lighten;
+    color: #fbb44c;
+    font-size: 16px;
+    width: 95%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+.trainer-m h3 {
+    background-color: rgba(20, 30, 76, 0.9);
+    background-blend-mode: lighten;
+    color: #fbb44c;
+    font-size: 16px;
+    width: 95%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+.trainer-a h3 {
+    color: #fbb44c;
+    background-color: rgba(20, 30, 76, 0.9);
+    background-blend-mode: lighten;
+    font-size: 16px;
+    width: 95%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+.trainer-e h3 {
+    color: #fbb44c;
+    background-blend-mode: lighten;
+    background-color: rgba(20, 30, 76, 0.9);
+    font-size: 16px;
+    width: 95%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+.trainers .trainer {
+    width: 95%;
+    min-height: 320px;
+    padding: var(-- 8px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: calc(2 * var(--spacing-xl));
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.trainer {
+    display:flex; 
+}
+
+
+
+
+
+.trainers .trainer-r {
+    width: 100%;
+    min-height: 320px;
+    padding: var(-- 8px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: calc(2 * var(--spacing-xl));
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.trainers .trainer-m {
+    width: 100%;
+    min-height: 320px;
+    padding: var(-- 8px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: calc(2 * var(--spacing-xl));
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 70px;
+    margin-bottom: 30px;
+}
+.trainers .trainer-a {
+    width: 100%;
+    min-height: 320px;
+    padding: var(-- 8px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: calc(2 * var(--spacing-xl));
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+    padding-top: -30px;
+}
+.trainers .trainer-e {
+    width: 100%;
+    min-height: 320px;
+    padding: var(-- 8px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: calc(2 * var(--spacing-xl));
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+}
+
+.image-wrap {
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px)
+{.welcome-trainers h1 {
+    font-size: 2rem;
+}
+}
+
+@media (max-width: 768px)
+{.trainers .trainer {
+    min-height: 310px;
+}
+}
+@media (max-width: 576px)
+{.trainers .trainer {
+    min-height: 0;
+}
+}
+
+@media (max-width: 992px)
+{.trainers .trainer-wrap {
+    width: calc(100% / 3);
+}
+}
+@media (max-width: 768px)
+{.trainers .trainer-wrap{
+    width: 50%;
+}
+}
+@media (max-width: 576px)
+{.trainers .trainer-wrap {
+    width: 100%;
+}
+}

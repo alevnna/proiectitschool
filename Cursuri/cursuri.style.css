@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+intro-paragraph {
+    font-size: 14px;
+    margin: 0px 8px 28px;
+
+}
+h1 {
+    text-align: center;
+    color: #eaeaea;
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 16px;
+    text-align: center;
+    margin-top: 30px;
+    color: #101d42;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+h3 {
+    margin-bottom: 16px;   
+   }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+p.certif {
+    font-size: 14px;
+    color: #666666;
+}
+span {
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    color: #666666;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+
+
+.welcome-c {
+    background-color: #141e4c;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-curs {
+    background-color: white;
+    padding-bottom: 50px
+}
+.intro {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    padding: 16px;
+    @media (max-width: 768px) {
+        .intro h1 {
+          font-size: 2rem;
+        }
+      }
+      
+}
+
+.cont-cursuri {
+ 
+    font-size: 16px;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    padding: 16px;
+}
+
+
+.titlu-card {
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 16px;
+    color: #101d42;
+}
+
+ .logo-microsoft {
+    width: 80px;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+.curs {
+    display: block;
+    width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.container-cursuri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.detalii a {
+    font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2bb686;
+  border: 1px solid #2bb686;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+.cursuri .curs-wrap {
+    width: calc(100% /3);
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+
+@media (max-width: 992px)
+{
+    .cursuri .curs-wrap {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cursuri .curs-wrap {
+        width: 100%;
+    }
+}
